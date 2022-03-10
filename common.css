@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow: hidden; /* body 默认宽高不等于 viewport 宽高，所以要允许溢出 */
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  border: 1px solid grey;
+  width: 50vw; /* position 默认为 static，且设置了 flex 和 wrap */
+  height: 50vh; /* 因此，宽高等于 viewport 宽高的一半 */
+}

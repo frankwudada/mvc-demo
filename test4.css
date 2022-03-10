@@ -1,0 +1,22 @@
+.test4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  border: 1px solid red;
+  width: 25vw;
+  height: 25vh;
+  border-radius: 50%;
+}
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
+.active {
+  animation: change 2s ease-in-out infinite alternate;
+}

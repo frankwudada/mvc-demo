@@ -1,0 +1,14 @@
+.test3 {
+  display: flex;
+  align-items: center;
+}
+.movBox {
+  width: 10vw;
+  height: 10vh;
+  margin: 5vw;
+  background: black;
+  transition: all 1s ease;
+}
+.move {
+  transform: translateX(25vw);
+}
